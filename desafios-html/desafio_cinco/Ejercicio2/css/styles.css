@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap');
+
+/* Index */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    border-top: 20px solid #0a2ff1;
+    width: 1500px;
+}
+
+header, h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #04146c;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 24px;
+    margin-left: 30px;
+    font-weight: 400;
+}
+
+nav {
+    padding: 20px;
+}
+
+.activo {
+    font-weight: 700;
+}
+ 
+a {
+    margin-left: 30px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #04146c;
+}
+
+img {
+    width: 100%;
+}
+#img-logo {
+    width: 5%;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 96px;
+    color: #0a2ff1;
+    margin-bottom: 20px;
+    margin-right: 8.5%;
+    margin-left: 8.5%;
+}
+
+h2 {
+    font-size: 34.6px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-left: 8.5%;
+}
+
+/* Contacto */
+
+.contacto {
+    margin-left: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid #8e83b8;
+    padding: 10px;
+    width: 40%;
+    margin-top: 20px;
+}
+
+p {
+    display: block;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 45.3px;
+    color: #2c00cc;
+}
+
+h3, label {
+    color: #04146c;
+    font-size: 30.6px;
+    margin-top: 20px;
+}
+
+h3 {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+label {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+span {
+    color: red;
+}
+
+input, textarea {
+    width: 500px;
+    font-family: 'Roboto', sans-serif;
+}
+
+input {
+    height: 50px;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+button {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 32px;
+    height: 60px;
+}
+
+.btn-naranja {
+    background-color: #f98500;
+    color: white;
+    border: transparent;
+    padding: 10px;
+    margin: 20px;
+}
+
+.btn-purpura {
+    background-color: #2c00cc;
+    color: white;
+    border: transparent;
+    padding: 10px;
+    margin: 20px;
+}
+
+

@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    background: black;
+}
+
+#fecha {
+    color: white;
+    font-size: 66.6px;
+}
+
+#texto-black {
+    font-size: 197.3px;
+    background-color: white;
+}
+
+#texto-friday {
+    font-size: 217.3px;
+    color: white;
+}
+
+#descuentos{
+    background-color: white;
+    width: 100%;
+}
+
+#descuentos p {
+    display: inline-block;
+    margin: 10px;
+}
+.descuentos-black {
+    font-weight: 900;
+    font-size: 60px;
+}
+
+.descuentos-semibold {
+    font-weight: 600;
+    font-size: 48px;
+}
+#fin {
+    font-weight: 600;
+    font-size: 58.6px;
+    color: white;
+}

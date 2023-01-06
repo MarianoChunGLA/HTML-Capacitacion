@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Desafio 5 - Ejercicio 3 - Contacto</title>
+</head>
+<body>
+    <header>
+        <img id="img-logo" src="imgs/M5-logo-azul.svg" alt="logo-wh-azul">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#" class="activo">Contacto</a>
+        </nav>
+    </header>
+
+    <main class="contacto">
+        <p>¿Querés que nos contactemos con vos?</p>
+        <form action="#">
+            <h3>Dejanos tu consulta</h3>
+
+            <label for="nombre">
+                Nombre completo <span>*</span>
+            </label>
+            <input type="text" name="nombre-completo" id="nombre" placeholder="Juan Perez" required>
+
+            <label for="mail">
+                Email <span>*</span>
+            </label>
+            <input type="email" name="mail" id="mail" placeholder="email@example.com" required>
+
+            <label for="comentario">
+                Comentario <span>*</span>
+            </label>
+            <textarea name="comentario" id="comentario" placeholder="Este es mi comentario" required></textarea>
+
+            
+            <div>
+                <button type="reset" class="btn-naranja">Resetear</button>
+                <button type="submit" class="btn-purpura">Enviar</button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>

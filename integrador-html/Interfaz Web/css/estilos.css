@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #eeebeb;
+}
+
+header {
+    border-top: 10px solid #FCEE21;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    padding: 20px;
+}
+
+header nav h1 {
+    font-family:  'Coiny', cursive;
+    font-size: 56px;
+    align-self: flex-start;
+    margin-right: auto;
+}
+
+header a {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.resumen {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10%;
+}
+
+.resumen h2, p, #titulo-somos {
+    font-family: 'Roboto', sans-serif;
+}
+
+.resumen h2 {
+    display: inline;
+    background-color: #FCEE21;
+    font-size: 26.6px;
+}
+
+.resumen p {
+    font-size: 32px;
+}
+
+#titulo-somos {
+    font-size: 64px;
+    font-weight: bold;
+}
+
+#titulo-wwwapas {
+    font-family:  'Coiny', cursive;
+    font-weight: 400;
+    font-size: 117.3px;
+}
+
+#resumen-texto {
+    margin-left: 3%;
+    width: 70%;
+}
+
+
+
+#resumen-imagen {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    width: 60%;
+}
+
+#resumen-imagen img{
+    height: 450px;
+    width: auto;
+}
+
+header a:link{
+    text-decoration: none;
+    color: #808080;
+}
+
+header a:visited{
+    text-decoration: none;
+    color: #808080;
+}
+
+header a:hover{
+    text-decoration: underline;
+    color: #808080;
+}
+
+.introduccion {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.introduccion h2 {
+    color: black;
+    font-size: 34.6px;
+    display: inline;
+    background-color: #FCEE21; 
+    font-weight: bold;
+    text-align: center;
+}
+
+.introduccion p {
+    font-size: 28px;
+    text-align: justify;
+}
+
+.div-introduccion {
+    height: auto;
+    width: 700px;
+    margin: 1%;
+}
+
+#servicios {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#servicios p {
+    font-family: 'Roboto', sans-serif;
+}
+
+#servicios ol  {
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+}
+
+#servicios img {
+    width: 80%;
+    height: auto;
+}
+
+#servicios h2 {
+    font-size: 54.6px;
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+#ultimo-item-comunicar {
+    font-weight: bold;
+    background-color: #FCEE21; 
+    float: left;
+}
+
+
+#contacto {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#contacto p{ 
+    margin: 20px;
+    display: inline-block;
+}
+
+.input-contacto {
+    height: 20px;
+    width: 70%;
+}
+
+.button-form {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
+    background-color: black;
+    height: 50px;
+    width: auto;
+    margin-right: 45px;
+}
+
+#form-consulta {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 26.6px;
+    margin-left: auto;
+}
+
+.redes {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 33.3px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    color: #808080;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.iconos {
+    width: 80px;
+    margin-right: 50px;
+    margin-left: 50px;
+    height: auto;
+}
+
+.redes p{
+    display: inline-block;
+    text-align: left;
+}
+
+footer {
+    padding: 1.5%;
+    background-color: #FCEE21;
+}
+
+footer h1 {
+    display: inline-block;
+    font-family:  'Coiny', cursive;
+    font-size: 44px; margin-right: 10%;
+}
+
+footer a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+}
+
+footer a:link {
+    color: black;
+    text-decoration: none;
+} 
+
+section {
+    margin: 4% 2%;
+}
+
+
+
+
